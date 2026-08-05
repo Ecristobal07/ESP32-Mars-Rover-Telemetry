@@ -83,7 +83,13 @@ The ESP32 and motor driver use separate power sources, but they must share a com
 ## Repository Structure
 
 ```text
-esp32-wireless-rover/
+ESP32-Mars-Rover-Telemetry/
+├── docs/
+│   ├── Images/
+│       └── RoverSide.JPG
+│       └── RoverTop.JPG
+│   ├── engineering_log.md
+│
 ├── firmware/
 │   ├── scripted_motion/
 │   │   └── scripted_motion.ino
@@ -93,7 +99,7 @@ esp32-wireless-rover/
 │   ├── rover_receiver.py
 │   └── rover_controller_tkinter.py
 ├── README.md
-└── .gitignore
+
 ```
 
 ## Firmware Versions
